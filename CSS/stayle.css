@@ -123,8 +123,8 @@ header .links ul li a{
 }
 header .links ul li a:hover{
     padding-left: 25px;
-    background-color: #10CAB7 ;
-    color: white;
+    background-color: gray ;
+    color: #10CAB7;
 }
 header .links ul li:not(:last-child){
     border-bottom: 1px solid #10CAB7;
@@ -361,7 +361,7 @@ header .links:hover ul{
     border: 1px solid black;
     transition: 0.8s;
     /* filter: grayscale(100%); */
-    filter: blur(5px);
+    filter: blur(3px);
 }
 .Protfolio .Protfolio-content .card img:hover{
     border-color: var(--main-color-);
